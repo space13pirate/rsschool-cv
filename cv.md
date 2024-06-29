@@ -18,11 +18,11 @@
 
 ## About Me
 
-:ledger: I am a student at Kazan State Power Engineering University (KSPEU).
+I am a student at Kazan State Power Engineering University (KSPEU).
 
-:ninja: Currently, I explore the vast universe of programming as a space pirate, aiming to become a programming ninja...
+Currently, I explore the vast universe of programming as a space pirate, aiming to become a programming ninja...
 
-:footprints: My journey in programming is fuelled by a relentless pursuit of knowledge and a passion for developing innovative solutions.
+My journey in programming is fuelled by a relentless pursuit of knowledge and a passion for developing innovative solutions.
 
 ---
 
@@ -108,31 +108,31 @@ def detect_face(frame):
 
 ## Education
 
-:heavy_check_mark: Bachelor's Degree from Kazan State Power Engineering University (KSPEU)
-* **GPA:** 4.6
+* Bachelor's Degree from Kazan State Power Engineering University (KSPEU)
+  + **GPA:** 4.6
 
 ### Professional Development and Training
 
-:heavy_check_mark: **DevOps Engineer**
-* **Institution:** Kazan State Power Engineering University (KSPEU)
-* **Description:** Diploma in professional retraining in DevOps engineering.
+* **DevOps Engineer**
+  + **Institution:** Kazan State Power Engineering University (KSPEU)
+  + **Description:** Diploma in professional retraining in DevOps engineering.
 
-:heavy_check_mark: **Software Developer**
-* **Institution:** Innopolis University
-* **Description:** Diploma in professional retraining obtained after completing a program on the fundamentals of software development management and new production technologies.
+* **Software Developer**
+  + **Institution:** Innopolis University
+  + **Description:** Diploma in professional retraining obtained after completing a program on the fundamentals of software development management and new production technologies.
 
-:heavy_check_mark: **Startup: Commercialization of Scientific Research Results Using Mathematical Modeling**
-* **Institution:** Kazan State Power Engineering University (KSPEU)
-* **Description:** Additional educational program аocused on commercializing scientific achievements through startup initiatives and mathematical modeling.
+* **Startup: Commercialization of Scientific Research Results Using Mathematical Modeling**
+  + **Institution:** Kazan State Power Engineering University (KSPEU)
+  + **Description:** Additional educational program аocused on commercializing scientific achievements through startup initiatives and mathematical modeling.
 
-:heavy_check_mark: **Software Engineering: IT Leaders of the Future**
-* **Institution:** Innopolis University
-* **Status:** Currently enrolled in this professional retraining program.
+* **Software Engineering: IT Leaders of the Future**
+  + **Institution:** Innopolis University
+  + **Status:** Currently enrolled in this professional retraining program.
   
 
-:heavy_check_mark: **JavaScript/Front-end. Pre-school**
-* **Institution:** RS School
-* **Description:** Currently enrolled in a preparatory course focusing on JavaScript and front-end development fundamentals.
+* **JavaScript/Front-end. Pre-school**
+  + **Institution:** RS School
+  + **Description:** Currently enrolled in a preparatory course focusing on JavaScript and front-end development fundamentals.
 
 ---
 
