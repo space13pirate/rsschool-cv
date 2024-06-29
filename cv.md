@@ -94,7 +94,7 @@ def detect_face(frame):
 
 ### Academic Projects
 
-* [Аэропортал: от входа до взлёта]([адрес](https://github.com/space13pirate/airport_admin) "Go to github.com/space13pirate/airport_admin")
+* [Аэропортал: от входа до взлёта](https://github.com/space13pirate/airport_admin "Go to github.com/space13pirate/airport_admin")
   + **Technology:** PHP
   + **Description:** Developed a management system for airport operations as a pet project.
 
