@@ -1,5 +1,9 @@
 # Anastasia Cheremisova
 
+<div id="header" align="left">
+  <img src="https://i.ibb.co/NZbH7SS/rsschool-cv.jpg" width="150"/>
+</div>
+
 ---
 
 ## Contact Information
