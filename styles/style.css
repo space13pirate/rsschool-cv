@@ -1,0 +1,543 @@
+/* Styles for the body (Стили для тела страницы) */
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: #19202E;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the header (Стили для заголовка) */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+/* Styles for the navigation menu (Стили для навигационного меню) */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+}
+
+nav ul > li {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav ul > li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #1E2738;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+nav ul .dropdown-menu li {
+    display: block;
+    margin: 0;
+}
+
+nav ul .dropdown-menu li a {
+    padding: 10px 20px;
+    display: block;
+    color: #ffffff;
+}
+
+nav ul .dropdown-menu li a:hover {
+    background-color: #575f6b;
+}
+
+nav ul li .show .dropdown-menu {
+    display: block;
+}
+
+/* Styles for the contact button (Стили для кнопки контакта) */
+.contact-btn {
+    background-color: #fe655c;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    white-space: nowrap;
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Styles for the main content (Стили для основного содержимого) */
+main {
+    padding: 20px;
+}
+
+/* Styles for the footer (Стили для подвала) */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: #a5b3ce;
+    gap: 10px;
+}
+
+footer a {
+    color: #a5b3ce;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+footer a.github-link:hover {
+    color: #fe655c;
+}
+
+footer .course-link img {
+    width: 100px;
+    margin-left: 5px;
+}
+
+footer .github-link i {
+    margin-right: 7px;
+}
+
+/* Style for heart icon (Стили для иконки сердечка) */
+.heart-icon {
+    color: #fe655c;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Styles for the profile section (Стили для секции профиля) */
+.profile-section {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 7px;
+    background-color: #1E2738;
+    color: #a5b3ce;
+    position: relative;
+}
+
+/* Styles for the profile picture container (Стили для контейнера фото профиля) */
+.profile-pic-container {
+    position: absolute;
+    top: -75px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Styles for the profile picture (Стили для фото профиля) */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid #1E2738;
+    object-fit: cover;
+}
+
+/* Styles for the profile info section (Стили для секции информации профиля) */
+.profile-info {
+    margin-top: 80px;
+}
+
+.profile-info h1 {
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-wrap: break-word; /* Ensure words wrap correctly */
+}
+
+/* Styles for the contact information list (Стили для списка контактной информации) */
+.contact-info {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-info li {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.contact-info a {
+    color: #a5b3ce;
+    text-decoration: none;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Add margin-right to icons (Добавить отступ справа для иконок) */
+.contact-info i {
+    margin-right: 7px;
+}
+
+/* Styles for content (Общие стили для содержимого) */
+.content {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #1E2738;
+    color: #a5b3ce;
+    margin: 20px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.left-column, .right-column {
+    min-width: 0;
+}
+
+/* Add vertical line between columns with padding (Добавить вертикальную линию между колонками с отступом) */
+.left-column {
+    flex: 3;
+    border-right: 1px solid #a5b3ce;
+    padding-right: 20px;
+}
+
+.right-column {
+    flex: 1;
+    padding-left: 20px;
+}
+
+/* Styles for horizontal rules (Стили для горизонтальных линий) */
+hr {
+    border: 0;
+    border-top: 1px solid #a5b3ce;
+    margin: 20px 0;
+}
+
+/* Styles for sections (Стили для секций) */
+section {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+/* Styles for headings (Стили для заголовков) */
+h2 {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+/* Styles for icon circles (Стили для кружков с иконками) */
+.icon-circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #19202E;
+    border-radius: 50%;
+    color: #a5b3ce;
+    margin-right: 10px;
+}
+
+/* Styles for icons (Стили для иконок) */
+h2 i {
+    font-size: 20px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+/* Main list styles (Стили для основного списка) */
+.edu-list {
+    color: #ffffff;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Sub list styles (Стили для вложенного списка) */
+.edu-sub-list {
+    color: #a5b3ce;
+    list-style-type: circle;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Styles for project columns (Стили для колонок проектов) */
+.project-columns {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-column {
+    flex: 1;
+    min-width: 300px;
+}
+
+
+.project-video {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Ensure tooltip text wraps correctly (Убедитесь, что текст подсказки переносится корректно) */
+.tooltip .tooltiptext {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+/* Responsive adjustments (Адаптивные настройки) */
+@media (max-width: 768px) {
+    .project-columns {
+        flex-direction: column;
+    }
+}
+
+
+/* Styles for the project details list (Стили для списка деталей проектов) */
+.project-details {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 20px 20px;
+    color: #a5b3ce;
+}
+
+.project-details li {
+    list-style-type: circle;
+    margin-bottom: 5px;
+}
+
+/* Project link styles (Стили для ссылки на проект) */
+.project-link {
+    color: #a5b3ce;
+    margin-bottom: 10px;
+    text-decoration: none;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.project-link:hover {
+    color: #fe655c;
+}
+
+
+/* Tooltip container (Контейнер для подсказок) */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+/* Tooltip text (Текст подсказки) */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #a5b3ce;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position the tooltip above the text (Расположить подсказку над текстом) */
+    margin-left: -100px; /* Use negative margin to center the tooltip (Использовать отрицательный отступ для центрирования подсказки) */
+    opacity: 0;
+    transition: opacity 0.3s;
+    word-wrap: break-word;
+}
+
+/* Tooltip arrow (Стрелка подсказки) */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip (Внизу подсказки) */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #1E2738 transparent transparent transparent;
+}
+
+/* Show the tooltip text when hovering over the tooltip container (Показывать текст подсказки при наведении на контейнер подсказки) */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Change color on hover (Изменить цвет при наведении) */
+.tooltip:hover {
+    color: #fe655c;
+}
+
+/* Styles for code blocks (Стили для блоков кода) */
+pre {
+    background-color: #2A2F3A;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    white-space: pre-wrap; /* Ensure code wraps correctly */
+}
+
+/* Main list styles for Skills (Стили для основного списка для Навыков) */
+.skills-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills-list > li {
+    margin-bottom: 20px;
+}
+
+.skills-list > li > strong {
+    color: #ffffff;
+}
+
+.skills-list > li > ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.skills-list > li > ul > li {
+    margin-bottom: 5px;
+}
+
+.skills-list > li > ul > li > strong {
+    color: #ffffff;
+}
+
+
+/* Styles for language proficiency section (Стили для секции владения языками) */
+.language {
+    margin-bottom: 20px;
+}
+
+.language-name {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.language p {
+    font-size: 0.8em;
+    color: #a5b3ce;
+}
+
+.language-level {
+    display: flex;
+    margin-top: 5px;
+}
+
+.language-level div {
+    width: 30px;
+    height: 12px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.language-level .filled {
+    background-color: #a5b3ce;
+}
+
+.language-level .half {
+    background-color: #4f637a;
+}
+
+.language-level .empty {
+    background-color: #19202E;
+}
+
+
+/* Styles for showing dropdown menus (Стили для отображения выпадающих меню) */
+.show {
+    display: block !important;
+}
+
+/* Media queries for responsiveness (Медиа-запросы для адаптивности) */
+@media (max-width: 768px) {
+    header {
+        margin-bottom: 50px;
+    }
+
+    .contact-btn {
+        width: 100%;
+        text-align: center;
+        white-space: normal;
+    }
+
+    .content {
+        display: grid;
+        flex-direction: column;
+    }
+
+    .left-column {
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .right-column {
+        padding-left: 0;
+    }
+
+    .profile-section {
+        overflow: visible;
+    }
+
+    section {
+        overflow: visible;
+        word-wrap: break-word;
+    }
+
+    /* Ensure text doesn't overflow (Убедитесь, что текст не обрезается) */
+    .profile-info h1, .contact-info a, section p, section ul, section li {
+        white-space: normal;
+        word-wrap: break-word;
+    }
+    
+    .profile-info {
+        margin-top: 100px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .contact-info li {
+        width: 100%;
+    }
+}
