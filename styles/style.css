@@ -55,7 +55,7 @@ nav ul .dropdown-menu li {
 nav ul .dropdown-menu li a {
     padding: 10px 20px;
     display: block;
-    color: #ffffff;
+    color: #a5b3ce;
 }
 
 nav ul .dropdown-menu li a:hover {
@@ -78,48 +78,17 @@ nav ul li .show .dropdown-menu {
     margin-top: 10px;
     text-align: center;
     display: inline-block;
+    transition: background-color 0.3s ease;
 }
+
+.contact-btn:hover {
+    background-color: #a5b3ce;
+}
+
 
 /* Styles for the main content (Стили для основного содержимого) */
 main {
     padding: 20px;
-}
-
-/* Styles for the footer (Стили для подвала) */
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 20px;
-    color: #a5b3ce;
-    gap: 10px;
-}
-
-footer a {
-    color: #a5b3ce;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-}
-
-footer a.github-link:hover {
-    color: #fe655c;
-}
-
-footer .course-link img {
-    width: 100px;
-    margin-left: 5px;
-}
-
-footer .github-link i {
-    margin-right: 7px;
-}
-
-/* Style for heart icon (Стили для иконки сердечка) */
-.heart-icon {
-    color: #fe655c;
-    margin-left: 5px;
-    margin-right: 5px;
 }
 
 /* Styles for the profile section (Стили для секции профиля) */
@@ -540,4 +509,69 @@ pre {
     .contact-info li {
         width: 100%;
     }
+}
+
+/* Styles for the footer (Стили для подвала) */
+.footer-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    color: #a5b3ce;
+    gap: 10px;
+}
+
+.footer-mobile {
+    display: none;
+}
+
+footer a {
+    color: #a5b3ce;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+footer a.github-link:hover {
+    color: #fe655c;
+}
+
+footer .github-link i {
+    margin-right: 7px;
+}
+
+footer .course-link img {
+    width: 100px;
+    margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+    .footer-desktop {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 20px;
+        color: #a5b3ce;
+        gap: 20px;
+    }
+
+    footer .github-link i {
+        font-size: 24px;
+    }
+
+    footer .course-link img {
+        width: 100px;
+        margin-left: 0px;
+    }
+}
+
+/* Style for heart icon (Стили для иконки сердечка) */
+.heart-icon {
+    color: #fe655c;
+    margin-left: 5px;
+    margin-right: 5px;
 }
