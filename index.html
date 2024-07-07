@@ -3,12 +3,331 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anastasia Cheremisova's CV</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Anastasia Cheremisova</title>
+
+    <!-- Link to favicon (Подключение favicon) -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Link to Comfortaa font from Google Fonts (Подключение шрифта Comfortaa от Google Fonts) -->
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Link to Bootstrap Icons library (Подключение библиотеки иконок Bootstrap Icons) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <!-- Link to Prism.js theme for code syntax highlighting (Подключение темы Prism.js для подсветки синтаксиса кода) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet">
 </head>
+
 <body>
-    <div class="container">
-        <h1>Anastasia Cheremisova's CV</h1>
-    </div>
+    <header>
+        <nav>
+            <ul>
+                <li class="go-to">
+                    <!-- Dropdown menu toggle (Переключатель выпадающего меню) -->
+                    <a href="#" id="toggle-menu">Go to...</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#code-examples">Code Examples</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#work-experience">Work Experience</a></li>
+                        <li><a href="#language-proficiency">Language Proficiency</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+         <!-- Contact button (Кнопка контакта) -->
+        <a href="https://t.me/space13pirate" class="contact-btn">Contact with me</a>
+    </header>
+    
+    <main>
+        <section class="profile-section">
+            <div class="profile-pic-container">
+                <!-- Profile picture (Фото профиля) -->
+                <img src="images/profile_pic.jpg" alt="Profile photo" class="profile-pic">
+            </div>
+            <div class="profile-info">
+                <!-- Name (Имя) -->
+                <h1>Anastasia Cheremisova</h1>
+                <!-- Contact information (Контактная информация) -->
+                <ul class="contact-info">
+                    <li><a href="#" id="copy-phone"><i class="bi bi-telephone-fill"></i>+7 (927) 044-74-75</a></li>
+                    <li><a href="#" id="copy-email"><i class="bi bi-envelope-heart-fill"></i>north13anastasia@gmail.com</a></li>
+                    <li><a href="https://discord.com/users/space13pirate"><i class="bi bi-discord"></i>space13pirate</a></li>
+                </ul>
+            </div>
+        </section>        
+        
+        <section class="content">
+            <div class="left-column">
+                <!-- About Me section (Секция "Обо мне") -->
+                <section id="about-me">
+                    <h2><span class="icon-circle"><i class="bi bi-person-heart"></i></span>About Me</h2>
+                    <p>I am a student at Kazan State Power Engineering University (KSPEU).</p>
+                    <p>Currently, I explore the vast universe of programming as a space pirate, aiming to become a programming ninja.</p>
+                    <p>My journey in programming is fuelled by a relentless pursuit of knowledge and a passion for developing innovative solutions.</p>
+                </section>
+
+                <hr>
+
+                <!-- Education section (Секция "Образование") -->
+                <section id="education">
+                    <h2><span class="icon-circle"><i class="bi bi-mortarboard"></i></span>Education</h2>
+
+                    <ul class="edu-list">
+                        <li style="color: #a5b3ce;">
+                            Bachelor’s Degree from Kazan State Power Engineering University (KSPEU)
+                            <ul class="edu-sub-list">
+                                <li><strong>GPA:</strong> 4.6</li>
+                            </ul>
+                        </li>
+                    </ul>
+                
+                    <h3>Professional Development and Training</h3>
+
+                    <ul class="edu-list">
+                        <li>
+                            <strong>DevOps Engineer</strong>
+                            <ul class="edu-sub-list">
+                                <li><strong>Institution:</strong> Kazan State Power Engineering University (KSPEU)</li>
+                                <li><strong>Description:</strong> Diploma in professional retraining in DevOps engineering.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Software Developer</strong>
+                            <ul class="edu-sub-list">
+                                <li><strong>Institution:</strong> Innopolis University</li>
+                                <li><strong>Description:</strong> Diploma in professional retraining obtained after completing a program on the fundamentals of software development management and new production technologies.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Startup: Commercialization of Scientific Research Results Using Mathematical Modeling</strong>
+                            <ul class="edu-sub-list">
+                                <li><strong>Institution:</strong> Kazan State Power Engineering University (KSPEU)</li>
+                                <li><strong>Description:</strong> Additional educational program focused on commercializing scientific achievements through startup initiatives and mathematical modeling.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Software Engineering: IT Leaders of the Future</strong>
+                            <ul class="edu-sub-list">
+                                <li><strong>Institution:</strong> Innopolis University</li>
+                                <li><strong>Status:</strong> Currently enrolled in this professional retraining program.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>JavaScript/Front-end. Pre-school</strong>
+                            <ul class="edu-sub-list">
+                                <li><strong>Institution:</strong> RS School</li>
+                                <li><strong>Description:</strong> Currently enrolled in a preparatory course focusing on JavaScript and front-end development fundamentals.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+                <hr>
+
+                <!-- Work Experience section (Секция "Опыт работы") -->
+                <section id="work-experience">
+                    <h2><span class="icon-circle"><i class="bi bi-briefcase"></i></span> Work Experience</h2>
+                
+                    <h3>Academic Projects</h3>
+                
+                    <div class="project-columns">
+                        <div class="project-column">
+                            <strong><a href="https://github.com/space13pirate/airport_admin" class="project-link">Аэропортал: от входа до взлёта</a></strong>
+                            
+                            <video controls class="project-video">
+                                <source src="projects/airport_admin_video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+
+                            <ul class="project-details">
+                                <li><strong>Technology:</strong> PHP</li>
+                                <li><strong>Description:</strong> Developed a management system for airport operations as a pet project.
+                                </li>
+                            </ul>
+                        </div>
+                
+                        <div class="project-column">
+                            <strong class="tooltip">EmoDetect
+                                <span class="tooltiptext">The source code for EmoDetect is not currently available for public viewing as it is part of a graduation thesis and subject to confidentiality requirements.</span>
+                            </strong>
+
+                            <video controls class="project-video">
+                                <source src="projects/emodetect_video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+
+                            <ul class="project-details">
+                                <li><strong>Technologies:</strong> Python, Flask</li>
+                                <li><strong>Description:</strong> Created a web application that uses neural networks to recognize human
+                                    emotions from audio and video data.</li>
+                                <li><strong>Skills:</strong> Python, machine learning, web application development.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <hr>
+
+                 <!-- Code Examples section (Секция "Примеры кода") -->
+                <section id="code-examples">
+                    <h2><span class="icon-circle"><i class="bi bi-code-slash"></i></span> Code Examples</h2>
+                    <pre><code class="language-javascript">
+function multiply(a, b){
+  return a * b;
+}
+                    </code></pre>
+                    <pre><code class="language-python">
+def detect_face(frame):
+    """
+    Определение ключевых точек на лице и возвращение координат (не используется в предсказании модели, но в визуализации)
+    """
+    cascPath = 'Models/face_landmarks.dat'
+    faceCascade = cv2.CascadeClassifier(cascPath)
+
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
+    detected_faces = faceCascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=6,
+                                                  minSize=(shape_x, shape_y),
+                                                  flags=cv2.CASCADE_SCALE_IMAGE)
+    coord = []
+
+    for x, y, w, h in detected_faces:
+        if w > 100:
+            sub_img = frame[y:y + h, x=x + w]
+            cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 255), 1)
+            coord.append([x, y, w, h])
+
+    return gray, detected_faces, coord
+                    </code></pre>
+                </section>
+                
+            </div>
+
+            <div class="right-column">
+                <!-- Skills section (Секция "Навыки") -->
+                <section id="skills">
+                    <h2><span class="icon-circle"><i class="bi bi-tools"></i></span> Skills</h2>
+                    <ul class="skills-list">
+                        <li><strong>Programming Languages</strong>
+                            <ul>
+                                <li><strong>Python</strong> – experienced in application development, data handling, and machine learning. Developed a web application for emotion recognition using neural networks.</li>
+                                <li><strong>PHP</strong> – developed a pet project for airport administration.</li>
+                                <li><strong>JavaScript, HTML, CSS</strong> – used for web development.</li>
+                                <li><strong>Dart (Flutter)</strong> – used for developing cross-platform mobile applications.</li>
+                                <li><strong>Java</strong> – used for mobile application development.</li>
+                                <li><strong>C# and C++</strong> – beginner level proficiency.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Frameworks</strong>
+                            <ul>
+                                <li><strong>Flask</strong> – used for creating Python-based web applications.</li>
+                                <li><strong>React</strong> – utilized for building user interfaces.</li>
+                                <li><strong>Flutter</strong> – employed for creating efficient and aesthetically pleasing cross-platform mobile applications.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Development Tools</strong>
+                            <ul>
+                                <li><strong>Git</strong> – proficient in using Git for version control.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Methodologies</strong>
+                            <ul>
+                                <li><strong>Agile and Scrum</strong> – methodologies followed during project development, ensuring efficient and flexible project management.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                
+                <hr>
+
+                <!-- Language Proficiency section (Секция "Владение языками") -->
+                <section id="language-proficiency">
+                    <h2><span class="icon-circle"><i class="bi bi-translate"></i></span> Language Proficiency</h2>
+                    <div class="language">
+                        <span class="language-name">Russian</span>
+                        <p>Native speaker</p>
+                        <div class="language-level">
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                        </div>
+                    </div>
+                    <div class="language">
+                        <span class="language-name">English</span>
+                        <p>Level: B2 (Upper-Intermediate)</p>
+                        <p>Experience: Successfully defended a project in English during a course at Innopolis University, which included both presentation and discussion phases in English.</p>
+                        <div class="language-level">
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="filled"></div>
+                            <div class="half"></div>
+                            <div class="empty"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <span>Made with <i class="bi bi-heart-fill heart-icon"></i> by</span>
+        <a href="https://github.com/space13pirate" class="github-link">
+            <i class="bi bi-github"></i> Anastasia Cheremisova
+        </a>
+        <span>as a project for the</span>
+        <a href="https://rs.school/courses/javascript-ru" class="course-link">
+            <img src="images/rs-school-logo.svg" alt="RS School">
+        </a>
+        <span>in 2024</span>
+    </footer>
+    
+    <script>
+        // Toggle dropdown menu (Переключение выпадающего меню)
+        document.getElementById('toggle-menu').addEventListener('click', function(event) {
+            event.preventDefault();
+            var dropdownMenu = document.querySelector('.dropdown-menu');
+            dropdownMenu.classList.toggle('show');
+        });
+    </script>
+
+<script>
+    // Copy phone number to clipboard (Копировать номер телефона в буфер обмена)
+    document.getElementById('copy-phone').addEventListener('click', function (event) {
+        event.preventDefault();
+        const phone = '+7 (927) 044-74-75';
+        navigator.clipboard.writeText(phone).then(function () {
+            alert('Phone number copied to clipboard');
+        }, function (err) {
+            alert('Could not copy text: ', err);
+        });
+    });
+</script>
+
+<script>
+    // Copy email address to clipboard (Копировать адрес электронной почты в буфер обмена)
+    document.getElementById('copy-email').addEventListener('click', function (event) {
+        event.preventDefault();
+        const email = 'north13anastasia@gmail.com';
+        navigator.clipboard.writeText(email).then(function () {
+            alert('Email address copied to clipboard');
+        }, function (err) {
+            alert('Could not copy text: ', err);
+        });
+    });
+</script>
+
+<!-- Link to Prism.js for syntax highlighting (Подключение Prism.js для подсветки синтаксиса) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+
 </body>
 </html>
