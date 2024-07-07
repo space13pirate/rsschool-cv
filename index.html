@@ -26,14 +26,14 @@
             <ul>
                 <li class="go-to">
                     <!-- Dropdown menu toggle (Переключатель выпадающего меню) -->
-                    <a href="#" id="toggle-menu">Go to...</a>
+                    <a href="#" id="toggle-menu" style="color: #a5b3ce;">Go to...</a>
                     <ul class="dropdown-menu">
                         <li><a href="#about-me">About Me</a></li>
                         <li><a href="#education">Education</a></li>
-                        <li><a href="#code-examples">Code Examples</a></li>
-                        <li><a href="#skills">Skills</a></li>
                         <li><a href="#work-experience">Work Experience</a></li>
+                        <li><a href="#skills">Skills</a></li>
                         <li><a href="#language-proficiency">Language Proficiency</a></li>
+                        <li><a href="#code-examples">Code Examples</a></li>
                     </ul>
                 </li>
             </ul>
@@ -278,15 +278,26 @@ def detect_face(frame):
     </main>
 
     <footer>
-        <span>Made with <i class="bi bi-heart-fill heart-icon"></i> by</span>
-        <a href="https://github.com/space13pirate" class="github-link">
-            <i class="bi bi-github"></i> Anastasia Cheremisova
-        </a>
-        <span>as a project for the</span>
-        <a href="https://rs.school/courses/javascript-ru" class="course-link">
-            <img src="images/rs-school-logo.svg" alt="RS School">
-        </a>
-        <span>in 2024</span>
+        <div class="footer-desktop">
+            <span>Made with <i class="bi bi-heart-fill heart-icon"></i> by</span>
+            <a href="https://github.com/space13pirate" class="github-link">
+                <i class="bi bi-github"></i> Anastasia Cheremisova
+            </a>
+            <span>as a project for the</span>
+            <a href="https://rs.school/courses/javascript-ru" class="course-link">
+                <img src="images/rs-school-logo.svg" alt="RS School">
+            </a>
+            <span>in 2024</span>
+        </div>
+        <div class="footer-mobile">
+            <a href="https://github.com/space13pirate" class="github-link">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://rs.school/courses/javascript-ru" class="course-link">
+                <img src="images/rs-school-logo.svg" alt="RS School">
+            </a>
+            <span><b>© 2024</b></span>
+        </div>
     </footer>
     
     <script>
